@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>スプレッドシートに承認欄(担当・課長・部長)を作って押印する方法</title>
+<meta name="description" content="Google スプレッドシートの見積書・稟議書に「担当・課長・部長」の承認欄を作る手順。罫線・列幅・行の高さの設定と、押印欄に電子印鑑を入れる方法。">
+<link rel="canonical" href="https://koda1120.github.io/hanko-site/guide/shoninran.html">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+  <div class="mark">印</div>
+  <a class="brand" href="../">電子印鑑スタンプ</a>
+  <nav><a href="../guide/">ガイド</a><a href="../help.html">使い方</a><a href="../privacy.html">プライバシーポリシー</a><a href="../tokushoho.html">特定商取引法に基づく表記</a></nav>
+</header>
+
+<main>
+  <h1>スプレッドシートに承認欄(担当・課長・部長)を作って押印する方法</h1>
+  <p class="note">更新: 2026年9月23日</p>
+  <p class="lead">見積書や稟議書の右上によくある「担当・課長・部長」の承認欄を、Google スプレッドシートで作る手順です。作ったあとの押印方法も説明します。</p>
+
+  <h2>承認欄の作り方(手作業)</h2>
+  <ol>
+    <li>承認欄を置きたい位置の空のセルを、役職の数だけ横に選びます(3役職なら3列)。</li>
+    <li>1行目に役職名(担当、課長、部長)を入力し、中央揃えにします。背景色を薄いグレーにすると見出しらしくなります。</li>
+    <li>2行目が押印欄です。行の高さを 64px 程度、列の幅も 64px 程度にして、正方形に近い枠にします。</li>
+    <li>見出し行と押印欄の2行×役職数のセルを選び、「表示形式」→「枠線」ですべての罫線を引きます。</li>
+  </ol>
+  <p>この2行分をテンプレートとして残しておけば、次からはコピーで使い回せます。</p>
+
+  <h2>承認欄に押印する</h2>
+  <p>押印欄のセルを選び、印影の画像を「挿入」→「画像」→「セル内に画像を挿入」で入れます。承認者ごとに認印の画像を用意しておく必要があります。日付も残したい場合は日付印を使います(<a href="hizukein.html">日付印の入れ方</a>)。</p>
+
+  <h2>アドオンで一度に作る</h2>
+  <p>アドオンを使うと、役職名をカンマ区切りで入力して「承認欄を作成」を押すだけで、見出し行・罫線・押印欄の大きさまで一度に整います。そのあと押印欄を選んで認印や日付印を押せます。</p>
+<div style="margin:24px 0;padding:16px 18px;border:1px solid #dadce0;border-radius:8px;background:#f6f7f9">
+<strong>電子印鑑スタンプ</strong>(Google スプレッドシート™ 用アドオン)なら、名前を入力して押印欄を選ぶだけで、認印・日付印・角印をセルに埋め込めます。認印は無料・無制限です。<br>
+<a href="../">アドオンの詳細を見る →</a>
+</div>
+  <h2>承認欄のよくある悩み</h2>
+  <h3>印影を入れたら枠が崩れた</h3>
+  <p>「セル上に画像を挿入」で入れた画像は行の高さに影響しませんが、行を並べ替えると位置がずれます。「セル内に画像を挿入」なら枠の中に収まり、並べ替えにも付いていきます。</p>
+  <h3>承認者が押す順番を守らせたい</h3>
+  <p>スプレッドシートには承認フローの機能はありません。順番を守る必要がある場合は、承認欄の横に「承認日」の列を作り、日付印で日付を残すか、ワークフロー用のサービスを併用します。</p>
+</main>
+
+<footer>
+  <a href="../">トップ</a><a href="../guide/">ガイド</a><a href="../help.html">使い方</a><a href="../privacy.html">プライバシーポリシー</a><a href="../terms.html">利用規約</a><a href="../tokushoho.html">特定商取引法に基づく表記</a>
+  <div>© 2026 合同会社Kパートナーズ</div>
+</footer>
+</body>
+</html>

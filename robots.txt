@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://koda1120.github.io/hanko-site/sitemap.xml

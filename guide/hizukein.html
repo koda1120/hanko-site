@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>スプレッドシートの見積書・請求書に日付印(データネーム印)を入れる方法</title>
+<meta name="description" content="Google スプレッドシートで作った見積書・請求書・受領書に、部署名・日付・氏名の3段の日付印(データネーム印)を入れる方法。手作業の手順と、日付を自動で入れる方法を解説。">
+<link rel="canonical" href="https://koda1120.github.io/hanko-site/guide/hizukein.html">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+  <div class="mark">印</div>
+  <a class="brand" href="../">電子印鑑スタンプ</a>
+  <nav><a href="../guide/">ガイド</a><a href="../help.html">使い方</a><a href="../privacy.html">プライバシーポリシー</a><a href="../tokushoho.html">特定商取引法に基づく表記</a></nav>
+</header>
+
+<main>
+  <h1>スプレッドシートの見積書・請求書に日付印(データネーム印)を入れる方法</h1>
+  <p class="note">更新: 2026年9月23日</p>
+  <p class="lead">受領印・検収印・確認印として使われる日付印(データネーム印)は、「部署名/日付/氏名」の3段構成が一般的です。スプレッドシートで日付印を扱うときの手順をまとめます。</p>
+
+  <h2>日付印が向いている場面</h2>
+  <ul>
+    <li>請求書・納品書の<strong>受領日</strong>を記録する(経理の受領印)</li>
+    <li>見積書の<strong>確認日</strong>と確認者を残す</li>
+    <li>社内の申請書で「いつ、誰が確認したか」を残す</li>
+  </ul>
+  <p>日付が入るので、認印より「いつ処理したか」が一目で分かるのが利点です。</p>
+
+  <h2>手作業で入れる場合</h2>
+  <ol>
+    <li>印影作成サイトなどで、部署名・日付・氏名を入れた日付印の画像を作ります。</li>
+    <li>スプレッドシートの押印欄のセルを選び、「挿入」→「画像」→「セル内に画像を挿入」で入れます。</li>
+    <li>行の高さを 60px 前後にすると、16mm 程度の日付印に近い見た目になります。</li>
+  </ol>
+  <p><strong>手作業の弱点</strong>: 日付が毎回変わるので、押すたびに画像を作り直すことになります。1日に数枚処理する経理では、この手間が積み重なります。</p>
+
+  <h2>日付を自動で入れる場合(アドオン)</h2>
+  <p>アドオンを使うと、日付は当日が自動で入り、部署名と氏名はプリセットとして保存しておけます。押印欄を選んでボタンを押すだけなので、1枚あたり数秒です。西暦(2026.09.23)と和暦(R8.09.23)の切り替えもできます。</p>
+<div style="margin:24px 0;padding:16px 18px;border:1px solid #dadce0;border-radius:8px;background:#f6f7f9">
+<strong>電子印鑑スタンプ</strong>(Google スプレッドシート™ 用アドオン)なら、名前を入力して押印欄を選ぶだけで、認印・日付印・角印をセルに埋め込めます。認印は無料・無制限です。<br>
+<a href="../">アドオンの詳細を見る →</a>
+</div>
+  <h2>日付の表記はどれを使うか</h2>
+  <table>
+    <tr><th>表記</th><th>使いどころ</th></tr>
+    <tr><td>2026.09.23</td><td>最も一般的。社外向けにも使える</td></tr>
+    <tr><td>'26.09.23</td><td>小さい印面で日付を目立たせたいとき</td></tr>
+    <tr><td>R8.09.23</td><td>官公庁向けや、社内様式が和暦のとき</td></tr>
+  </table>
+
+  <h2>押印欄の大きさの目安</h2>
+  <p>日付印は 16mm 前後のものが多く、スプレッドシートでは表示倍率100%でおよそ 60px 四方に相当します。押印欄のセルは行の高さ 64px・列の幅 64px 程度にしておくと、印影がきれいに収まります。</p>
+</main>
+
+<footer>
+  <a href="../">トップ</a><a href="../guide/">ガイド</a><a href="../help.html">使い方</a><a href="../privacy.html">プライバシーポリシー</a><a href="../terms.html">利用規約</a><a href="../tokushoho.html">特定商取引法に基づく表記</a>
+  <div>© 2026 合同会社Kパートナーズ</div>
+</footer>
+</body>
+</html>
